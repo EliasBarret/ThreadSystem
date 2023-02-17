@@ -41,13 +41,18 @@ public class ThreadSafe {
             Thread thread1 = new ThreadFirst(log, db, itemsDivision3, amountPerLine, tableName);
             Thread thread2 = new ThreadSecond(log, db, itemsDivision3, amountPerLine, tableName);
             Thread thread3 = new ThreadThird(log, db, itemsDivision3, amountPerLine, tableName);
+            Thread thread4 = new ThreadFourth(log, db, itemsDivision3, amountPerLine, tableName);
+            Thread thread5 = new ThreadFifth(log, db, itemsDivision3, amountPerLine, tableName);
 
             thread1.start();
             thread2.start();
             thread3.start();
+            thread4.start();
+            thread5.start();
 
             log.warn("Waiting for the execution of threads");
-            while (thread1.isAlive() || thread2.isAlive() || thread3.isAlive()) Thread.yield();
+            while (thread1.isAlive() || thread2.isAlive() || thread3.isAlive() || thread4.isAlive() || thread5.isAlive())
+                Thread.yield();
         } catch (Exception e) {
             log.error(e.getMessage());
         }
