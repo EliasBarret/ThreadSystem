@@ -1,0 +1,8 @@
+2023-02-17 17:21:17,424 [AWT-EventQueue-0]  INFO com.goodvibes:32 - Getting inputs!!
+2023-02-17 17:21:17,686 [AWT-EventQueue-0]  INFO com.goodvibes:22 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-17 17:21:18,102 [AWT-EventQueue-0] ERROR com.goodvibes:43 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=qvtzFkJ9RVWr1jnJJ5CxKA==)
+2023-02-17 17:26:51,770 [AWT-EventQueue-0]  INFO com.goodvibes:32 - Getting inputs!!
+2023-02-17 17:26:52,259 [AWT-EventQueue-0]  INFO com.goodvibes:22 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-17 17:26:54,075 [AWT-EventQueue-0] ERROR com.goodvibes:40 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=lgSoIASsTYy94C6Oug7wew==)
