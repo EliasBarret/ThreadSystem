@@ -1,7 +1,9 @@
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadThird.java
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/gui/ViewSystem.java
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadFirst.java
-/Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/util/LogGenerator.java
+/Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadFourth.java
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadSafe.java
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadSecond.java
+/Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/util/LogFile.java
+/Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/service/ThreadFifth.java
 /Users/elias/IdeaProjects/threadSystem/src/main/java/com/goodvibes/threadSystem/Main.java

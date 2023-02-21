@@ -6,3 +6,37 @@
 2023-02-17 17:26:52,259 [AWT-EventQueue-0]  INFO com.goodvibes:22 - Connecting to the database
  URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
 2023-02-17 17:26:54,075 [AWT-EventQueue-0] ERROR com.goodvibes:40 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=lgSoIASsTYy94C6Oug7wew==)
+2023-02-18 13:50:14,108 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/./log.txt
+2023-02-18 13:50:48,244 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:51:22,926 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:53:40,148 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:54:21,482 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:55:40,224 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:55:53,021 [main]  INFO com.goodvibes:39 - Texto do arquivo: 2023-02-17 17:21:17,424 [AWT-EventQueue-0]  INFO com.goodvibes:32 - Getting inputs!!
+2023-02-17 17:21:17,686 [AWT-EventQueue-0]  INFO com.goodvibes:22 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-17 17:21:18,102 [AWT-EventQueue-0] ERROR com.goodvibes:43 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=qvtzFkJ9RVWr1jnJJ5CxKA==)
+2023-02-17 17:26:51,770 [AWT-EventQueue-0]  INFO com.goodvibes:32 - Getting inputs!!
+2023-02-17 17:26:52,259 [AWT-EventQueue-0]  INFO com.goodvibes:22 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-17 17:26:54,075 [AWT-EventQueue-0] ERROR com.goodvibes:40 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=lgSoIASsTYy94C6Oug7wew==)
+2023-02-18 13:50:14,108 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/./log.txt
+2023-02-18 13:50:48,244 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:51:22,926 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:53:40,148 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:54:21,482 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+2023-02-18 13:55:40,224 [main]  INFO com.goodvibes:29 - /Users/elias/IdeaProjects/threadSystem/log.txt
+
+2023-02-18 14:26:54,294 [AWT-EventQueue-0]  INFO com.goodvibes:34 - ------------------------- System Thread --------------------------------
+2023-02-18 14:26:54,311 [AWT-EventQueue-0]  INFO com.goodvibes:35 - Table Name: test Amount Per Line: 30
+2023-02-18 15:01:16,788 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-18 15:02:02,779 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-18 15:02:45,511 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-18 15:04:06,941 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-18 15:07:40,683 [AWT-EventQueue-0]  INFO com.goodvibes:36 - ------------------------- System Thread: Start --------------------------------
+2023-02-18 15:07:40,702 [AWT-EventQueue-0]  INFO com.goodvibes:37 - Table Name:  Amount Per Line: 0
+2023-02-21 10:54:30,131 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-21 10:55:35,048 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-21 10:56:51,732 [main] ERROR com.goodvibes:16 - Exception Capture. - null
+2023-02-21 10:58:16,161 [AWT-EventQueue-0]  INFO com.goodvibes:36 - ------------------------- System Thread: Start --------------------------------
+2023-02-21 10:58:16,197 [AWT-EventQueue-0]  INFO com.goodvibes:37 - Table Name:  Amount Per Line: 0

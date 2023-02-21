@@ -30,6 +30,7 @@ public class ThreadSafe {
         startProcessor(log, tableName, amountPerLine);
 
         log.info("Closing the connection !");
+        log.info("------------------------- System Thread: END --------------------------------");
         st.close();
         db.close();
     }
@@ -61,8 +62,6 @@ public class ThreadSafe {
     private int verifyQtdItemsInTable(Logger log, String tableName) {
         int qtd = 0;
         try {
-            log.info("Thread one executing...");
-
             ResultSet rs = st.executeQuery("SELECT COUNT(ID_IDIOMA) FROM " + tableName + " WHERE ID_IDIOMA = 'ZH' OR ID_IDIOMA = 'DE'");
             if (rs.next()) {
                 qtd = rs.getInt(1);
