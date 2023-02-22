@@ -29,7 +29,7 @@ public class ThreadFourth extends Thread{
             logger.info("Fourth thread executing...");
             for (int i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
-                logger.warn("Fourth thread Delete success: " + i);
+                logger.warn("Fourth thread Delete success: "+ qt + " rows deleted!");
             }
             logger.info("Fourth thread end ...");
         } catch (SQLException sqlE) {

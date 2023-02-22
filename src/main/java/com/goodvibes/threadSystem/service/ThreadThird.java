@@ -28,7 +28,7 @@ public class ThreadThird extends Thread{
             logger.info("Third thread executing ...");
             for (int i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
-                logger.warn("Third thread Delete success: "+i);
+                logger.warn("Third thread Delete success: "+ qt + " rows deleted!");
             }
             logger.info("Third thread end ... ");
         } catch (SQLException sqlE) {
