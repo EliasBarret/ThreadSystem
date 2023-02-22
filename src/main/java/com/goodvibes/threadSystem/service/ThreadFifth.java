@@ -27,10 +27,11 @@ public class ThreadFifth extends Thread{
     public void run() {
         try {
             logger.info("Fifth thread executing...");
-            for (int i = 0; i < vz; i += qt) {
+            int i;
+            for (i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
             }
-            logger.info("Fifth thread got: "+ qt + " rows deleted!");
+            logger.info("Fifth thread got: "+ i + " rows deleted!");
         } catch (SQLException sqlE) {
             logger.error("Fifth thread: " + sqlE);
             System.exit(1);

@@ -26,10 +26,11 @@ public class ThreadThird extends Thread{
     public void run() {
         try {
             logger.info("Third thread executing ...");
-            for (int i = 0; i < vz; i += qt) {
+            int i;
+            for (i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
             }
-            logger.info("Third thread got: "+ qt + " rows deleted!");
+            logger.info("Third thread got: "+ i + " rows deleted!");
         } catch (SQLException sqlE) {
             logger.error("Third thread: " + sqlE.getMessage());
             System.exit(1);

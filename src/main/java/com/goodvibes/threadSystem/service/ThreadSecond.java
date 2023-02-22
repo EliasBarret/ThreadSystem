@@ -26,10 +26,11 @@ public class ThreadSecond extends Thread {
     public void run() {
         try {
             logger.info("Second thread executing... ");
-            for (int i = 0; i < vz; i += qt) {
+            int i;
+            for (i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
             }
-            logger.info("Second thread got: "+ qt + " rows deleted!");
+            logger.info("Second thread got: "+ i + " rows deleted!");
         } catch (SQLException sqlE) {
             logger.error("Second Thread: " + sqlE.getMessage());
             System.exit(1);

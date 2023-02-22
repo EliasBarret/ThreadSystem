@@ -26,10 +26,11 @@ public class ThreadFirst extends Thread {
     public void run() {
         try {
             logger.info("First thread executing...");
-            for (int i = 0; i < vz; i += qt) {
+            int i;
+            for (i = 0; i < vz; i += qt) {
                 st.executeUpdate("DELETE FROM " + tName + " WHERE ID_IDIOMA IN ('ZH','DE') AND ROWNUM <= " + qt);
             }
-            logger.info("First thread got: "+ qt + " rows deleted!");
+            logger.info("First thread got: "+ i + " rows deleted!");
         } catch (SQLException sqlE) {
             logger.error("First thread: " + sqlE);
             System.exit(1);
