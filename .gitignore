@@ -8,6 +8,8 @@ out
 *.class
 *.swp
 target/**/
+target/
+target
 classes
 .class
 build
@@ -15,3 +17,4 @@ bin
 classes
 *~
 .idea
+*.txt
