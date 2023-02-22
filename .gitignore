@@ -16,5 +16,4 @@ build
 bin
 classes
 *~
-.idea
 *.txt

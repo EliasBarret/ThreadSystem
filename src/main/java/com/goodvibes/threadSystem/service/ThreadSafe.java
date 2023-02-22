@@ -2,20 +2,28 @@ package com.goodvibes.threadSystem.service;
 
 import org.apache.log4j.Logger;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.sql.*;
+import java.util.Properties;
 
 public class ThreadSafe {
     Connection db;
     Statement st;
+    int totalTable = 0;
 
     public void go(Logger log, String tableName, int amountPerLine) throws ClassNotFoundException, FileNotFoundException, IOException, SQLException {
-        System.setProperty("oracle.net.tns_admin", "C:/Users/e-djunior/Documents/tnsnames");
 
-        String url = "jdbc:oracle:thin:@DOC_DESEN.WEG.NET";
-        String usr = "inout";
-        String pwd = "1n0ut_2o21";
+        InputStream input = new FileInputStream("src/main/resources/config.properties");
+        Properties prop = new Properties();
+
+        prop.load(input);
+
+        // TsNames
+        System.setProperty(prop.getProperty("db.tsName"), prop.getProperty("db.pathTsName"));
+
+        String url = prop.getProperty("db.url");
+        String usr = prop.getProperty("db.user");
+        String pwd = prop.getProperty("db.password");
 
         Class.forName("oracle.jdbc.OracleDriver");
 
@@ -30,6 +38,7 @@ public class ThreadSafe {
         startProcessor(log, tableName, amountPerLine);
 
         log.info("Closing the connection !");
+        log.info("Total successfully deleted items: " + totalTable);
         log.info("------------------------- System Thread: END --------------------------------");
         st.close();
         db.close();
@@ -60,17 +69,17 @@ public class ThreadSafe {
     }
 
     private int verifyQtdItemsInTable(Logger log, String tableName) {
-        int qtd = 0;
+        totalTable = 0;
         try {
             ResultSet rs = st.executeQuery("SELECT COUNT(ID_IDIOMA) FROM " + tableName + " WHERE ID_IDIOMA = 'ZH' OR ID_IDIOMA = 'DE'");
             if (rs.next()) {
-                qtd = rs.getInt(1);
+                totalTable = rs.getInt(1);
                 rs.close();
-                log.info("Total items in the table: " + qtd);
+                log.info("Total items in the table: " + totalTable);
             }
         } catch (SQLException sqlEx) {
             log.error(sqlEx.getMessage());
         }
-        return qtd;
+        return totalTable;
     }
 }

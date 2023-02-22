@@ -1,0 +1,5 @@
+2023-02-22 15:16:50,035 [AWT-EventQueue-0]  INFO com.goodvibes:38 - ------------------------- System Thread: Start --------------------------------
+2023-02-22 15:16:50,060 [AWT-EventQueue-0]  INFO com.goodvibes:39 - Table Name:  Amount Per Line: 0
+2023-02-22 15:17:34,478 [AWT-EventQueue-0]  INFO com.goodvibes:29 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-22 15:17:36,077 [AWT-EventQueue-0] ERROR com.goodvibes:48 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=3CICl1rWScScwYAothBcNA==)
