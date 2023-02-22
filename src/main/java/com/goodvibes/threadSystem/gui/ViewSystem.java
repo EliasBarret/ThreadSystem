@@ -40,9 +40,6 @@ public class ViewSystem extends JFrame {
 
                     // Responsible for all delete work
                     threadsafe.go(log, inputTableName.getText(), Integer.parseInt(spinnerAmountPerLine.getValue().toString()));
-
-                    // load logs in screen
-                    textAreaLogger.setText(logFile.readLogFile(log));
                 } catch (ClassNotFoundException ex) {
                     log.error("ClassNotFoundException: " + ex.getMessage());
                 } catch (IOException ex) {
@@ -52,6 +49,7 @@ public class ViewSystem extends JFrame {
                 } catch (Exception ex) {
                     log.error(ex.getMessage());
                 }
+                textAreaLogger.setText(logFile.readLogFile(log));
             }
         });
     }
