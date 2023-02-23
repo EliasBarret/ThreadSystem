@@ -3,3 +3,104 @@
 2023-02-22 15:17:34,478 [AWT-EventQueue-0]  INFO com.goodvibes:29 - Connecting to the database
  URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
 2023-02-22 15:17:36,077 [AWT-EventQueue-0] ERROR com.goodvibes:48 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=3CICl1rWScScwYAothBcNA==)
+2023-02-23 10:32:58,769 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:32:58,798 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:32:59,165 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:32:59,841 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=r9rc3EtUSW28w7Hqd3ax6g==)
+2023-02-23 10:36:44,548 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:36:44,564 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:38:13,854 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:38:13,872 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:39:12,151 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:39:12,173 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:43:30,072 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:43:30,091 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name: scasd Amount Per Line: 0
+2023-02-23 10:43:30,304 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:43:30,601 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=biUcVwaFQSu5hcK3o0BGRA==)
+2023-02-23 10:43:41,009 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:43:41,010 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name: scasd Amount Per Line: 0
+2023-02-23 10:43:41,012 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:43:41,020 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=WVNbRtK3SVqjTolnrRVxsA==)
+2023-02-23 10:47:08,891 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:08,911 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:47:09,165 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:09,485 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=U1bIKV9bTn2q7kULzaCaOQ==)
+2023-02-23 10:47:16,135 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:16,136 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:47:16,137 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:16,143 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=A6jRBoEKR9Kw/2wA6daI5A==)
+2023-02-23 10:47:20,475 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:20,476 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:47:20,477 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:20,485 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=4/DMGvngTh+wyG0oBlwafA==)
+2023-02-23 10:47:22,237 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:22,238 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:47:22,238 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:22,245 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=SkKtfTDqSFaY2Lke3vHWxw==)
+2023-02-23 10:47:23,981 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:23,982 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name: asc Amount Per Line: 0
+2023-02-23 10:47:23,982 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:23,988 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=ciG9U3lfSpOL+JzfVIZgkw==)
+2023-02-23 10:47:26,479 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:47:26,480 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name: asc Amount Per Line: 1
+2023-02-23 10:47:26,480 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:47:26,486 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=ysIUlUz9TbihZopNK1eLaA==)
+2023-02-23 10:49:56,075 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:49:56,110 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name:  Amount Per Line: 0
+2023-02-23 10:49:56,333 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:49:56,628 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=2eUbdQqPTvas1xgQJ1gsBA==)
+2023-02-23 10:50:04,212 [AWT-EventQueue-0]  INFO com.goodvibes:46 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 10:50:04,213 [AWT-EventQueue-0]  INFO com.goodvibes:47 - Table Name: asca Amount Per Line: 1
+2023-02-23 10:50:04,214 [AWT-EventQueue-0]  INFO com.goodvibes:30 - Connecting to the database
+ URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 10:50:04,221 [AWT-EventQueue-0] ERROR com.goodvibes:56 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=k2oWfX2ZRvCFGm6cBv4Few==)
+2023-02-23 12:07:17,099 [AWT-EventQueue-0]  INFO com.goodvibes:59 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 12:07:17,119 [AWT-EventQueue-0]  INFO com.goodvibes:60 - Table Name:  Amount Per Line: 1
+2023-02-23 12:07:17,339 [AWT-EventQueue-0]  INFO com.goodvibes:38 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 12:07:17,904 [AWT-EventQueue-0] ERROR com.goodvibes:77 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=b/21oILSR8irD1D01v+iJA==)
+2023-02-23 12:08:01,165 [AWT-EventQueue-0]  INFO com.goodvibes:59 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 12:08:01,186 [AWT-EventQueue-0]  INFO com.goodvibes:60 - Table Name: dasd Amount Per Line: 1
+2023-02-23 12:08:01,398 [AWT-EventQueue-0]  INFO com.goodvibes:38 - Connecting to the database URL = sada
+2023-02-23 12:08:01,406 [AWT-EventQueue-0] ERROR com.goodvibes:77 - SQLException: No suitable driver found for sada
+2023-02-23 12:08:08,843 [AWT-EventQueue-0]  INFO com.goodvibes:59 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 12:08:08,844 [AWT-EventQueue-0]  INFO com.goodvibes:60 - Table Name: dasd Amount Per Line: 1
+2023-02-23 12:08:08,844 [AWT-EventQueue-0]  INFO com.goodvibes:38 - Connecting to the database URL = sada
+2023-02-23 12:08:08,845 [AWT-EventQueue-0] ERROR com.goodvibes:77 - SQLException: No suitable driver found for sada
+2023-02-23 12:10:59,150 [AWT-EventQueue-0]  INFO com.goodvibes:59 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 12:10:59,171 [AWT-EventQueue-0]  INFO com.goodvibes:60 - Table Name:  Amount Per Line: 1
+2023-02-23 12:10:59,384 [AWT-EventQueue-0]  INFO com.goodvibes:39 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 12:10:59,701 [AWT-EventQueue-0] ERROR com.goodvibes:77 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=WFq1E3a0S5Shs+B5e+YNAQ==)
+2023-02-23 12:11:27,436 [AWT-EventQueue-0]  INFO com.goodvibes:59 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 12:11:27,437 [AWT-EventQueue-0]  INFO com.goodvibes:60 - Table Name: yuyvv Amount Per Line: 1
+2023-02-23 12:11:27,439 [AWT-EventQueue-0]  INFO com.goodvibes:39 - Connecting to the database URL = jbjbjk
+2023-02-23 12:11:27,440 [AWT-EventQueue-0] ERROR com.goodvibes:77 - SQLException: No suitable driver found for jbjbjk
+2023-02-23 14:00:16,256 [AWT-EventQueue-0]  INFO com.goodvibes:61 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 14:00:16,274 [AWT-EventQueue-0]  INFO com.goodvibes:62 - Table Name:  Amount Per Line: 1
+2023-02-23 14:00:16,497 [AWT-EventQueue-0]  INFO com.goodvibes:41 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 14:00:17,861 [AWT-EventQueue-0] ERROR com.goodvibes:79 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=YNE6hQG3Q4G9LZ/0yjnp1Q==)
+2023-02-23 14:00:29,056 [AWT-EventQueue-0]  INFO com.goodvibes:61 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 14:00:29,058 [AWT-EventQueue-0]  INFO com.goodvibes:62 - Table Name: qwe Amount Per Line: 1
+2023-02-23 14:00:29,059 [AWT-EventQueue-0]  INFO com.goodvibes:41 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 14:00:29,068 [AWT-EventQueue-0] ERROR com.goodvibes:79 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=gj6X3PRPR7KpgxdGZvrHTw==)
+2023-02-23 14:00:31,270 [AWT-EventQueue-0]  INFO com.goodvibes:61 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 14:00:31,271 [AWT-EventQueue-0]  INFO com.goodvibes:62 - Table Name: qwe Amount Per Line: 1
+2023-02-23 14:00:31,272 [AWT-EventQueue-0]  INFO com.goodvibes:41 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 14:00:31,279 [AWT-EventQueue-0] ERROR com.goodvibes:79 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=2444UYReT5Ge+OmovND31A==)
+2023-02-23 14:00:36,233 [AWT-EventQueue-0]  INFO com.goodvibes:61 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 14:00:36,233 [AWT-EventQueue-0]  INFO com.goodvibes:62 - Table Name: qwe Amount Per Line: 1
+2023-02-23 14:00:36,234 [AWT-EventQueue-0]  INFO com.goodvibes:41 - Connecting to the database URL = qwe
+2023-02-23 14:00:36,235 [AWT-EventQueue-0] ERROR com.goodvibes:79 - SQLException: No suitable driver found for qwe
+2023-02-23 14:07:19,642 [AWT-EventQueue-0]  INFO com.goodvibes:61 - ------------------------- System Thread: Start --------------------------------
+2023-02-23 14:07:19,662 [AWT-EventQueue-0]  INFO com.goodvibes:62 - Table Name:  Amount Per Line: 1
+2023-02-23 14:07:19,909 [AWT-EventQueue-0]  INFO com.goodvibes:42 - Connecting to the database URL = jdbc:oracle:thin:@DOC_DESEN.WEG.NET
+2023-02-23 14:07:20,217 [AWT-EventQueue-0] ERROR com.goodvibes:72 - SQLException: Erro de ES: The Network Adapter could not establish the connection (CONNECTION_ID=DKjCdSfaRXyWEtoe8MnuGQ==)

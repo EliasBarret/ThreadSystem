@@ -2,40 +2,52 @@ package com.goodvibes.threadSystem.service;
 
 import org.apache.log4j.Logger;
 
+import javax.swing.*;
 import java.io.*;
 import java.sql.*;
-import java.util.Properties;
 
 public class ThreadSafe {
     Connection db;
     Statement st;
     int totalTable = 0;
 
-    public void go(Logger log, String tableName, int amountPerLine) throws ClassNotFoundException, FileNotFoundException, IOException, SQLException {
-
-        InputStream input = new FileInputStream("src/main/resources/config.properties");
-        Properties prop = new Properties();
-
-        prop.load(input);
+    public void go(Logger log,
+                   String tableName,
+                   int amountPerLine,
+                   String url,
+                   String user,
+                   String password,
+                   boolean useTsNames,
+                   String pathTsNames,
+                   JProgressBar pBarLoad) throws ClassNotFoundException, IOException, SQLException {
 
         // TsNames
-        System.setProperty(prop.getProperty("db.tsName"), prop.getProperty("db.pathTsName"));
+        if (useTsNames) {
+            System.setProperty("oracle.net.tns_admin",
+                    pathTsNames == null ? "C:/Users/e-djunior/Documents/tnsnames" : pathTsNames);
+        }
 
-        String url = prop.getProperty("db.url");
-        String usr = prop.getProperty("db.user");
-        String pwd = prop.getProperty("db.password");
+        if (url.isEmpty() || url.isBlank() || url == null) {
+            url = "jdbc:oracle:thin:@DOC_DESEN.WEG.NET";
+        }
+        if (user.isEmpty() || user.isBlank() || user == null) {
+            user = "inout";
+        }
+        if (password.isEmpty() || password.isBlank() || password == null) {
+            password = "1n0ut_2o21";
+        }
 
         Class.forName("oracle.jdbc.OracleDriver");
 
-        log.info("Connecting to the database\n URL = " + url);
-        db = DriverManager.getConnection(url, usr, pwd);
+        log.info("Connecting to the database URL = " + url);
+        db = DriverManager.getConnection(url, user, password);
 
         log.info("Connected...Creating the declaration");
         st = db.createStatement();
 
         db.setAutoCommit(true);
 
-        startProcessor(log, tableName, amountPerLine);
+        startProcessor(log, tableName, amountPerLine, pBarLoad);
 
         log.info("Closing the connection !");
         log.info("Total successfully deleted items: " + totalTable);
@@ -44,11 +56,11 @@ public class ThreadSafe {
         db.close();
     }
 
-    public void startProcessor(Logger log, String tableName, int amountPerLine) throws SQLException {
+    public void startProcessor(Logger log, String tableName, int amountPerLine, JProgressBar pBarLoad) {
         try {
             int itemsDivision3 = verifyQtdItemsInTable(log, tableName) / 3;
 
-            Thread thread1 = new ThreadFirst(log, db, itemsDivision3, amountPerLine, tableName);
+            Thread thread1 = new ThreadFirst(log, db, itemsDivision3, amountPerLine, tableName, pBarLoad);
             Thread thread2 = new ThreadSecond(log, db, itemsDivision3, amountPerLine, tableName);
             Thread thread3 = new ThreadThird(log, db, itemsDivision3, amountPerLine, tableName);
             Thread thread4 = new ThreadFourth(log, db, itemsDivision3, amountPerLine, tableName);
